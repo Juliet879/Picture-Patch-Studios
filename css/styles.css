@@ -1,23 +1,52 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 .landing{
-    background-image: url();
-    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/83/75/39/8375390d41aa92a47bed9c5f4fb410ea.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 0;
 }
-
-
-
-
-/* body{
-    background-repeat: no-repeat;
-    background-size: initial;
-    background-image: linear-gradient( rgba(17, 17, 16, 0.877), rgba(13, 13, 14, 0.938)),url(https://i.pinimg.com/originals/83/75/39/8375390d41aa92a47bed9c5f4fb410ea.jpg);
-}
-h1 {
-    font-size: 1.5em;
-    color: #FE7F88;
+.landing h1 {
+    font-size: 4.5em;
+    color: #5907a5f5;
     background-image: none;
     background-color: transparent;
-    font-size: xx-large;
+    font-size: 55px;
     text-align: center;
+    background-color: black;
+    padding: 30px;
+    padding-top: 0;
+    font-family: serif;
   }
-   */
+
+.landing p{
+    font-size: 30px;
+    padding-right: 50%;
+    padding-top: 20PX;
+  }
+
+/* about us section */
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    padding-top: 5%;
+}
+.about p{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: serif;
+}
+
+/* services section */
+.services h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    padding-top: 5%;
+}
