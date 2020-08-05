@@ -50,3 +50,6 @@ body{
     font-family: serif;
     padding-top: 5%;
 }
+.row{
+    display: flex;
+}
