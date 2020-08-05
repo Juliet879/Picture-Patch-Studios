@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(17, 17, 16, 0.877), rgba(13, 13, 14, 0.938)),url(https://i.pinimg.com/originals/83/75/39/8375390d41aa92a47bed9c5f4fb410ea.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+h1 {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-image: none;
+    background-color: transparent;
+    font-size: xx-large;
+    text-align: center;
+  }
+  
