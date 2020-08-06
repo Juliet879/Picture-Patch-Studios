@@ -91,8 +91,9 @@ body{
     background-image: url(https://expertphotography.com/wp-content/uploads/2011/10/canon-vs.nikon-image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 .container-fluid{
     background-color: rgba(0, 0, 0, 0.705);
@@ -132,14 +133,14 @@ h1 {
     padding : 0 10px;
     margin  : 0;
     width   : 80%;
-    height: 20%;
+    height: 12%;
     background : transparent;
     color: black; 
     border-radius: 5px;
 }
 textarea{
     width: 50%;
-    padding: 40px;
+    padding: 0px;
     margin: 40px;
     margin-left: 14%;
     background: white;
