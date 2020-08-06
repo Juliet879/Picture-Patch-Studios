@@ -1,5 +1,5 @@
 # PICTURE PATCH STUDIOS
-
+<img src="images/screenshot.png">
 #### This is a website that gives detailed information of the photography services offered at Picture Patch Studios , 26,August,2020.
 #### By **Juliet Gisemba** 
 
