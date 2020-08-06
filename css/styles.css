@@ -134,7 +134,7 @@ h1 {
     width   : 80%;
     height: 20%;
     background : transparent;
-    color: white; 
+    color: black; 
     border-radius: 5px;
 }
 textarea{
@@ -143,5 +143,14 @@ textarea{
     margin: 40px;
     margin-left: 14%;
     background: white;
-
+}
+input{
+    width: 60%;
+    height: 20%;
+    background: white;
+}
+#submit{
+    background-color: green;
+    width: 10%;
+    height: 20%;
 }
