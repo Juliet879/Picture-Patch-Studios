@@ -91,7 +91,7 @@ body{
     background-image: url(https://expertphotography.com/wp-content/uploads/2011/10/canon-vs.nikon-image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 70vh;
     margin-bottom: 50px;
     border-radius: 10px;
 }
@@ -152,7 +152,7 @@ input{
     margin-left: 14%;
     padding-top: 2%;
 }
-.button{
+#submit{
     background-color: green;
     width: 10%;
     height: 20%;
