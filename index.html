@@ -4,21 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="css/scripts.css"></script>
     <title>Picture-Patch-Studios</title>
 </head>
 
 <body>
-    <div class="landing">
+    <div class="navbar">
         <h1>PICTURE PATCH STUDIOS</h1>
+
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="landing">
         <p>“The best thing about a picture is that it never changes, even when the people in it do.”
             — <strong>Andy Warhol</strong></p>
+
+            <a href="#about.html"><button>Get Started</button></a>
     </div>
 
-    <div class="about">
+    <div class="about" id="about.html">
         <h1>About Us</h1>
         <p>For <strong>Picture Patch Studios</strong>, photography is an art of observation. It’s about finding
             something interesting in an ordinary place… We have found it has little to do with the things you see and
@@ -36,61 +49,77 @@
         <h4>Here are some of the type of photo shoots we offer</h4>
 
         <div class="row">
-            <div class="col-mod-3">
-                <img src="images/magazine.jpg" alt="">
-                <figcaption>
-                    <h2><span>MAGAZINE SHOOTS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img id="image1" src="images/magazine.jpg" alt="">
+                    <figcaption>
+                        <h6><span>MAGAZINE SHOOTS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/ceremony.jpg" alt="">
-                <figcaption>
-                    <h2><span>CEREMONIES</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/ceremony.jpg" alt="">
+                    <figcaption>
+                        <h6><span>CEREMONIES</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/home-shoots.jpg" alt="">
-                <figcaption>
-                    <h2><span>ADVERTS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/home-shoots.jpg" alt="">
+                    <figcaption>
+                        <h6><span>ADVERTS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/studio.jpeg" alt="">
-                <figcaption>
-                    <h2>STUDIO <span>SHOOTS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/studio.jpeg" alt="">
+                    <figcaption>
+                        <h6>STUDIO <span>SHOOTS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
         </div>
         <div class="row">
-            <div class="col-mod-3">
-                <img src="images/baby.jpg" alt="">
-                <figcaption>
-                    <h2>BABY <span>SHOWERS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img id="image1" src="images/baby.jpg" alt="">
+                    <figcaption>
+                        <h6>BABY <span>SHOWERS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/street.jpg" alt="">
-                <figcaption>
-                    <h2>STREET <span>SHOOTS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/street.jpg" alt="">
+                    <figcaption>
+                        <h6>STREET <span>SHOOTS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/family.jpeg" alt="">
-                <figcaption>
-                    <h2>FAMILY <span>SHOOTS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/family.jpeg" alt="">
+                    <figcaption>
+                        <h6>FAMILY <span>SHOOTS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
-            <div class="col-mod-3">
-                <img src="images/fest.png" alt="">
-                <figcaption>
-                    <h2>CONCERTS/ <span>FESTIVALS</span></h2>
-                </figcaption><a href="#"></a>
+            <div class="col-mod-3 column">
+                <figure>
+                    <img src="images/fest.png" alt="">
+                    <figcaption>
+                        <h6>CONCERTS/ <span>FESTIVALS</span></h6>
+                    </figcaption><a href="#"></a>
+                </figure>
             </div>
         </div>
     </div>
 
     <div class="contacts">
-        <div class="container-fluid">
+        <div class="container">
             <h1>Contact Us</h1>
             <p>If you would like to book us for shoots you can email us also you can reach us to us
                 through our social media handouts
@@ -99,7 +128,8 @@
                 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                 target="_blank" novalidate>
                 <div id="name">
-                    <input type="text" name="LNAME" class="" id="mce-LNAME" placeholder="Name"><br><br><br><br>
+                    <input type="text" name="LNAME" class="" id="mce-LNAME" placeholder="Name">
+
                 </div>
 
                 <div id="email">
@@ -119,21 +149,6 @@
         </div>
 
     </div>
-    <div class="icons">
-        <div class="social">
-            <img src="images/facebook.png" alt="" id="social1">
-            <img src="images/insta.jpeg"  id="social3">
-            <img src="images/skype.jpeg" alt="">
-            <img src="images/gmail.png" alt="" id="social2">
-            <img src="images/behance.png" alt="">
-        </div>
-        <footer class="footer">
-            <h5>PICTURE PATCH STUDIOS</h5>
-            <p>2019</p>
-        </footer>
-    </div>
-
-
-</body>
+   </body>
 
 </html>
